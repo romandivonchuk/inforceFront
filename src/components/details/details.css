@@ -1,0 +1,49 @@
+.details-item {
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.details-item-img {
+    max-width: 340px;
+}
+
+.details-item .edit-img {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.details-item-info {
+    max-width: 300px;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details-item-info .edit {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.details-item h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.details-item p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    
+    text-align: left;
+}
+
+.edit input {
+    width: 100%;
+}
