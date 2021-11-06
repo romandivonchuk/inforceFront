@@ -1,7 +1,7 @@
 
 
 class Service {
-    _url = "http://localhost:5000/"
+    _url = "https://inforceback.herokuapp.com/"
 
     async getAllProducts() {
 
